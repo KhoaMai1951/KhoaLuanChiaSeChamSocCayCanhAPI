@@ -27,7 +27,7 @@ public class TestController {
 
 	// soft delete
 	@GetMapping(path = "/soft-delete")
-	void softDeleteUser(@RequestParam String id, HttpSession session) { sout
+	void softDeleteUser(@RequestParam String id, HttpSession session) {  
 		int targetId = Integer.parseInt(id);
 		this.userService.softDelete(1, targetId); 
 	}

@@ -1,0 +1,1 @@
+web: java -jar Uit_SpringBoot-0.0.1-SNAPSHOT.jar
