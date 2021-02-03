@@ -24,6 +24,11 @@ public class TestController {
 	List<User> all() {
 		return this.userService.findAll();
 	}
+	
+	@GetMapping("/string")
+	String string() {
+		return "aaa";
+	}
 
 	// soft delete
 	@GetMapping(path = "/soft-delete")
