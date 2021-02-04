@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.myclass.*")
+@ComponentScan("com.myclass")
 public class KhoaLuanChiaSeChamSocCayCanhApiApplication {
 
 	public static void main(String[] args) {
