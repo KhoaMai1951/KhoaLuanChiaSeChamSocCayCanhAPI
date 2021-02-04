@@ -20,7 +20,7 @@ public class TestController {
 	@Autowired
 	UserService userService;
 
-	@GetMapping("/")
+	@GetMapping()
 	List<User> all() {
 		return this.userService.findAll();
 	}
