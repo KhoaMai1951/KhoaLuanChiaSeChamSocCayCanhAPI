@@ -30,10 +30,10 @@ public class TestController {
 		return "aaa";
 	}
 
-	// soft delete
-	@GetMapping(path = "/soft-delete")
-	void softDeleteUser(@RequestParam String id, HttpSession session) {  
-		int targetId = Integer.parseInt(id);
-		this.userService.softDelete(1, targetId); 
-	}
+//	// soft delete
+//	@GetMapping(path = "/soft-delete")
+//	void softDeleteUser(@RequestParam String id, HttpSession session) {  
+//		int targetId = Integer.parseInt(id);
+//		this.userService.softDelete(1, targetId); 
+//	}
 }

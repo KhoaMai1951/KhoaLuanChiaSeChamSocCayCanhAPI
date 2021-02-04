@@ -22,13 +22,7 @@ public class User {
     @Column(unique = true) 
 	private String email;
  
-	private String password;
-
-	@Column(name = "is_deleted")
-	private boolean isDeleted;
-
-	@Column(name = "created_date")
-	private Date createdDate;
+	private String password;  
 
 	public int getId() {
 		return id;
@@ -61,20 +55,5 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-
-	public boolean isDeleted() {
-		return isDeleted;
-	}
-
-	public void setDeleted(boolean isDeleted) {
-		this.isDeleted = isDeleted;
-	}
-
-	public Date getCreatedDate() {
-		return createdDate;
-	}
-
-	public void setCreatedDate(Date createdDate) {
-		this.createdDate = createdDate;
-	}
+ 
 }
